@@ -1,0 +1,23 @@
+</br>
+<h1> The correspondence of <%= @correspondent1 %> and <%= @correspondent2 %>:</h1>
+</br>
+<ul>
+<% @letters_from_c1_to_c2.all.each do |a| %>
+  <li>
+    <%= a.id %>.<%= @correspondent1 %> to <%= @correspondent2 %>
+    <% if File.exist?(Rails.root.join('public', 'letters', (a.id.to_s + ".pdf"))) %>
+      <a href="/letters/<%= a.id %>.pdf">   Full text.</a>
+    <% end %>
+    </br>
+  </li>
+<% end %>
+<% @letters_from_c2_to_c1.all.each do |a| %>
+  <li>
+    <%= a.id %>.<%= @correspondent2 %> to <%= @correspondent1 %>
+    <% if File.exist?(Rails.root.join('public', 'letters', (a.id.to_s + ".pdf"))) %>
+      <a href="/letters/<%= a.id %>.pdf">   Full text.</a>
+    <% end %>
+    </br>
+  </li>
+<% end %>
+</ul>

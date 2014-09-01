@@ -1,0 +1,52 @@
+{
+  "type": "network",
+  "version": "1.0",
+  "data": "/data.json",
+  "logo": {
+    "text": "James Coleman",
+    "file": "",
+    "link": ""
+  },
+  "text": {
+    "title": "Humanist Literary Networks",
+    "more": "Created by James K. Coleman, Ph.D.<br/><br/>Contributors: Lorenzo Bacchini, Francesco Brenna, Maria Assunta Farisco, Janet Gomez, Beatrice Variolo<br/><br/>Data based on the following editions and studies of humanist letters:<br/>Aurispa, Giovanni. <i>Carteggio di Giovanni Aurispa.</i> Ed. Remigio Sabbadini. Rome: Istituto storico italiano per il Medio Evo, 1931.<br/>Barbaro, Francesco. <i>Epistolario.</i> Ed. Claudio Griggio. 2 vols. Florence: Leo S. Olschki Editore, 1991.<br/>Boccaccio, Giovanni. <i>Epistole e lettere.</i> Ed. Ginetta Auzzas. In <i>Tutte le opere di Giovanni Boccaccio.</i> Ed. Vittore Branca. Vol. 5, t. 1. Milan: Mondadori, 1992.<br/>Bracciolini, Poggio. <i>Lettere.</i> Ed. Helene Harth. 3 vols. Florence: Leo S. Olschki Editore, 1984.<br/>Bruni, Leonardo. <i>Epistolarum libri viii recensente Laurentio Mehus.</i> Ed. James Hankins. 2 vols. Rome: Istituto nazionale di studi sul rinascimento, 2007.<br/>Fedele, Cassandra. <i>Letters and Orations.</i> Ed. and trans. Diana Robin. Chicago: The University of Chicago Press, 2000.<br/>Ficino, Marsilio. <i>Opera omnia.</i> Basel: Heinrich Petri, 1576.<br/>Ficino, Marsilio. <i>The Letters of Marsilio Ficino. Translated by Members of the Language Department of the London School of Economic Science.</i> 9 vols. London: Shepheard-Walwyn, 1975-2012.<br/>Fonzio, Bartolomeo. <i>Letters to Friends.</i> Ed. Alessandro Daneloni. Trans. Martin Davies. Cambridge, Massachusetts: Harvard University Press, 2011.<br/>Garin, Eugenio. \"Ricerche su Giovanni Pico della Mirandola, III: L\u0027Epistolario.\" In <i>La Cultura filosofica del rinascimento italiano: ricerche e documenti.</i> Milan: Bompiani, 1994.<br/>Luiso, Francesco Paolo. <i>Studi su l\u0027epistolario di Leonardo Bruni.</i> Ed. Lucia Gualdo Rosa. Rome: Istituto storico italiano per il Medio Evo, 1980.<br/>Nogarola, Isotta. <i>Complete Writings: Letterbook, Dialogue on Adam and Eve, Orations.</i> Chicago: University of Chicago Press, 2004.<br/>Petrarca, Francesco. <i>Le Familiari.</i> Ed. and trans. Ugo Dotti. Milan: Nino Aragno Editore, 2004. Volumes 1-4.<br/>Petrarca, Francesco. <i>Letters of Old Age. Rerum senilium libri I-XVIII.</i> Trans. Aldo S. Bernardo, Saul Levin, and Reta A. Bernardo. 2 vols. Baltimore: Johns Hopkins University Press, 1992.<br/>Petrarca, Francesco. <i>Letters on Familiar Matters: Rerum familiarum libri.</i> Trans. Aldo S. Bernardo. 3 vols. Baltimore: Johns Hopkins University Press, 1975.<br/>Piccolomini, Enea Silvio. <i>Enee Silvii Piccolominei Epistolarium seculare.</i> Vatican City: Biblioteca Apostolica Vaticana, 2007.<br/>Poliziano, Angelo. <i>Letters. Volume I: Books I-IV.</i> Ed. and trans. Shane Butler. Cambridge, Massachusetts, 2006.<br/>Poliziano, Angelo. <i>Opera omnia Angeli Politiani et alia quaedam lectu digna.</i> Venice: Aldo Manuzio, 1498.<br/>Percopo, Erasmo. \"Lettere di Giovanni Pontano a principi ed amici.\" <i>Atti della Accademia Pontaniana</i> 12 (1907): 1-86.<br/>Resta, Gianvito. <i>L\u0027Epistolario del Panormita: studi per una edizione critica.</i> Messina: Università degli Studi di Messina. Studi e testi, 1954.<br/>Sabbadini, Remigio. \"Lettere e orazioni edite e inedite di Gasperino Barzizza.\" <i>Archivio storico lombardo</i> XIII (1886): 363-78, 563-83, 825-36.<br/>Salutati, Coluccio. <i>Epistolario di Coluccio Salutati.</i> Ed. Francesco Novati. 4 vols. Rome: Istituto storico italiano, 1891.<br/>Valla, Lorenzo. <i>Laurentii Valle Epistole.</i> Ed. Ottavio Besomi and Mariangela Regoliosi. Padua: Editrice Antenore, 1984.<br/>Veronese, Guarino. <i>Epistolario di Guarino Veronese.</i> Ed. Remigio Sabbadini. 3 vols. Venice: Società, 1915-19.<br/>Zaccaria, Vittorio. \"L\u0027Epistolario di Pier Candido Decembrio.\" <i>Rinascimento.</i> Ser. 1, 3 (1952): 85-118.<br/><br/>Software:<br/>Gephi<br/>Sigma.js<br/>",
+    "intro": "An interactive visualization of the correspondence networks of Italian Renaissance humanists"
+  },
+  "legend": {
+    "edgeLabel": "",
+    "colorLabel": "",
+    "nodeLabel": "Each circle represents a correspondent."
+  },
+  "features": {
+    "search": true,
+    "hoverBehavior": "default"
+  },
+  "informationPanel": {
+    "imageAttribute": "Modularity Class",
+    "groupByEdgeDirection": false
+  },
+  "sigma": {
+    "graphProperties": {
+      "minEdgeSize": 2,
+      "maxNodeSize": 12,
+      "maxEdgeSize": 24,
+      "minNodeSize": 1
+    },
+    "drawingProperties": {
+      "labelThreshold": 6,
+      "hoverFontStyle": "bold",
+      "defaultEdgeType": "curve",
+      "defaultLabelColor": "#fff",
+      "defaultLabelHoverColor": "#fff",
+      "defaultLabelSize": 14,
+      "activeFontStyle": "bold",
+      "fontStyle": "bold",
+      "defaultHoverLabelBGColor": "#002147",
+      "defaultLabelBGColor": "#ddd"
+    },
+    "mouseProperties": {
+      "minRatio": 0.75,
+      "maxRatio": 20
+    }
+  }
+}
