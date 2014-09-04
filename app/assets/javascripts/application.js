@@ -19,4 +19,5 @@
 //= require sigma/sigma.fisheye
 //= require sigma/sigma.parseJson
 //= require fancybox/jquery.fancybox.pack
+//= require bootstrap
 //= require main
