@@ -11,7 +11,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20140829220437) do
+ActiveRecord::Schema.define(version: 20141015111517) do
 
   create_table "letters", force: true do |t|
     t.string   "source"
