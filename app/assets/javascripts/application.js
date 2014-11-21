@@ -13,10 +13,10 @@
 //= require jquery
 //= require jquery_ujs
 //= require turbolinks
-//= require jquery/jquery.min
-//= require sigma/sigma.min
-//= require sigma/sigma.fisheye
-//= require sigma/sigma.parseJson
-//= require fancybox/jquery.fancybox.pack
+//= require jquery.min
+//= require sigma.min
+//= require sigma.fisheye
+//= require sigma.parseJson
+//= require jquery.fancybox.pack
 //= require main
 //= require_tree .
