@@ -85,10 +85,12 @@ Rails.application.configure do
   config.assets.precompile += %w( jquery_ujs.js )
   config.assets.precompile += %w( turbolinks.js )
   config.assets.precompile += %w( jquery.min.js )
+  config.assets.precompile += %w( _sigma.min.js )
   config.assets.precompile += %w( sigma.min.js )
   config.assets.precompile += %w( sigma.fisheye.js )
   config.assets.precompile += %w( sigma.parseJson.js )
   config.assets.precompile += %w( jquery.fancybox.pack.js )
+  config.assets.precompile += %w( excanvas.js )
   config.assets.precompile += %w( main.js )
 
 end
