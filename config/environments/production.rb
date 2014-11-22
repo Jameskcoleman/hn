@@ -81,5 +81,14 @@ Rails.application.configure do
   # Do not dump schema after migrations.
   config.active_record.dump_schema_after_migration = false
 
+  config.assets.precompile += %w( jquery.js )
+  config.assets.precompile += %w( jquery_ujs.js )
+  config.assets.precompile += %w( turbolinks.js )
+  config.assets.precompile += %w( jquery.min.js )
+  config.assets.precompile += %w( sigma.min.js )
+  config.assets.precompile += %w( sigma.fisheye.js )
+  config.assets.precompile += %w( sigma.parseJson.js )
+  config.assets.precompile += %w( jquery.fancybox.pack.js )
+  config.assets.precompile += %w( main.js )
 
 end
