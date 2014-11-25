@@ -11,9 +11,10 @@
 // about supported directives.
 //
 //= require jquery
-//= require jquery_ujs
-//= require turbolinks
 //= require jquery.min
+//= require jquery_ujs
+//= require jquery.turbolinks
+//= require turbolinks
 //= require sigma.min
 //= require sigma.fisheye
 //= require sigma.parseJson
